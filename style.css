@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.tasks {
+    padding: 50px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: white; 
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+label {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: white;
+}
+
+.array_object {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.input {
+    width: 400px;
+    height: 35px;
+    padding: 5px 50px;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: black;
+    background-color: aliceblue;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.btn, .btn_reset {
+    width: 150px;
+    height: 35px;
+    padding: 5px;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: hsl(0, 0%, 0%, 55%);
+    background-color: aliceblue;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.person {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+.tasks_list {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 25px;
+}
+
+.btn_first, .btn_second, .btn_third, .btn_fourth, .btn_fifth, .btn_sixth, .console_clear {
+    width: 130px;
+    height: 35px;
+    padding: 5px;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: hsl(0, 0%, 0%, 55%);
+    background-color: aliceblue;
+    border-radius: 30px;
+    cursor: pointer;
+}
